@@ -228,7 +228,7 @@ header{
     border-bottom: 0.5px solid #62e9b0;
     border-radius: 10px;
     padding: 0;
-    overflow: auto;
+    overflow: hidden;
 }
 .project-card img {
     border-radius: 10px;
@@ -242,7 +242,7 @@ header{
       width: 100%;
       height: 100%;
       background: rgba(0, 0, 0, 0.5);
-      padding: 0px 50px ;
+      padding: 0px 20px ;
   }
   label{
     color: #62e9b0;
