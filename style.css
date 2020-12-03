@@ -25,7 +25,15 @@ header{
       0 0 16px #feddb2;
 }
 
-
+.navbar-dark .navbar-nav .nav-link{
+    color: #feddb2;
+    letter-spacing: 2px;
+    transition: all .3s ease;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    letter-spacing: 3px;
+    color: #ffffff;
+}
 /* preloader start */
 #loader-wrapper {
     position: fixed;
@@ -59,7 +67,7 @@ header{
         bottom: 5px;
         border-radius: 50%;
         border: 3px solid transparent;
-        border-top-color: #f9d276;
+        border-top-color: #4effb5;
         -webkit-animation: spin 3s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
         animation: spin 3s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
     }
@@ -261,6 +269,11 @@ header{
   .form-control:focus{
       background: rgba(0, 0, 0, 0.6);
       border: none;
+  }
+  .btn-dark , .btn-dark:hover, .btn-dark:focus{
+      color: #feddb2;
+      background-color: transparent;
+      border-color: transparent;
   }
 footer {
     text-align: center;
