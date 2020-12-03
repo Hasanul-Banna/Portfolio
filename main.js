@@ -1,3 +1,4 @@
+AOS.init();
 $(document).ready(function() {	
 	setTimeout(function(){
 		$('body').addClass('loaded');
