@@ -255,12 +255,7 @@ header{
   label{
     color: #ffffff;
   }
-  .emailMe{
-    background: url(./images/EmailBG.jpg);
-    background-size: cover;
-    background-position: center;
-  }
-  .form-control {
+   .form-control {
       background: transparent;
       border: none;
       outline: none;
@@ -380,11 +375,18 @@ footer {
         right: 35px;
     }
   }
+  @media screen and (max-width: 767px) {
+
+    span.ah-words-wrapper {
+        width: auto !important;
+    }
+}
+
   @media screen and (max-width: 450px) {
 
     #biopic {
-        width: 100%;
-        height: auto
+        /* width: 100%; */
+        height: 50vh;
     }
     #name{
         color: #feddb2;
