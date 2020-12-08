@@ -396,5 +396,8 @@ footer {
       #anim {
         font-size: 22px;
       }
+      span.ah-words-wrapper {
+        width: 100% !important;
+    }
 }
 
