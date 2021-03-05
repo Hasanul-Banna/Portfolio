@@ -15,7 +15,49 @@ body{
 header{
     min-height: 90vh;
 }
-
+.theme-text{
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #ffffff;
+    position: relative;
+    z-index: 10;
+    letter-spacing: 2px;
+}
+.theme-text::before {
+    content: "";
+    position: absolute;
+    background-color: #3f4551;
+    width: 170px;
+    height: 2px;
+    bottom: -16px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.theme-text::after{
+    content: "";
+    position: absolute;
+    background-color: #62e9b0;
+    width: 70px;
+    height: 2px;
+    bottom: -16px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.service-card img{
+    border-radius: 6px;
+}
+.service-card {
+    padding: 10px 30px;
+}
+.service-card:first-child{
+    border-right: 1px solid #62e9b0;
+}
+.service-card:last-child{
+    border-left: 1px solid #62e9b0;
+}
 #hb{
     color: #feddb2;
     font-family: 'Londrina Sketch', cursive;
@@ -337,6 +379,10 @@ footer {
     margin-top: -35px;
     border: 2px solid #62e9b0;
     border-radius: 25px
+}
+.text-justify {
+    text-align: justify;
+  text-justify: inter-word;
 }
 @media (max-width: 767px) {
     .icon-scroll {
